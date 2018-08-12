@@ -294,4 +294,6 @@ class ProductController extends BaseController
         echo json_encode($collections);
         exit;
     }
+
+
 }

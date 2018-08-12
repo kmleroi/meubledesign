@@ -232,7 +232,7 @@
                                 </div>
                                 <!-----Partie dédiée aux infos techniques-------->
 
-                                <div class="tab-pane active " id="technics" >
+                                <div class="tab-pane " id="technics" >
                                     <div class="row">
                                         <div class="col-md-8">
                                             <div class="form-group text-left">
@@ -310,11 +310,8 @@
                                     </div>
                                 </div>
                                 <!-----Partie dédiée à l'image-------->
-                                <div class="tab-pane text-center" id="imgs">
-                                    <div class="apercu">
-                                        <img src="/images/noimage.png" alt="">
-                                    </div>
-                                    <input type="text" value="noimage.png" id="imageCat" >
+                                <div class="tab-pane text-center active" id="imgs">
+
                                 </div>
                                 <input id="token" name="token" type="hidden" value="{{\App\Classes\CSRFToken::_token()}}">
                                 <input id="idProdImage" name="idProd" type="hidden" value="0">

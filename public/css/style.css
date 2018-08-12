@@ -5534,4 +5534,24 @@ th {
   background-color: rgba(44,168,255,0.75)!important;
   color: #fff!important;
 }
+#dropZone {
+  border: 3px dashed #0088cc;
+  padding: 50px;
+  width: 500px;
+  margin-top: 20px;
+}
 
+#files {
+  border: 1px dotted #0088cc;
+  padding: 20px;
+  width: 200px;
+  display: none;
+}
+
+#error {
+  color: red;
+}
+.bar {
+  height: 18px;
+  background: green;
+}

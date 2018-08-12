@@ -3,6 +3,7 @@ $( document ).ready(function() {
     function reload(){
         location.reload(true);
     }
+
 //bootstrap-switch
     $(".switch").bootstrapSwitch();
     $(".switch").on('switchChange.bootstrapSwitch', function(event, state) {

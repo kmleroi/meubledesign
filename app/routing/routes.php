@@ -101,6 +101,7 @@ $router->map('POST', '/admin/products/[i:id]/delete',
 $router->map('POST', '/admin/products/[i:id]/activation',
     'App\Controllers\Admin\ProductController@activation', 'activation_product');
 // activation Product
-$router->map('POST', '/admin/products/[i:id]/getCollections',
-    'App\Controllers\Admin\ProductController@getCollections', 'get_collections');
+$router->map('POST', '/admin/test',
+    'App\Controllers\Admin\test', 'test');
+
 /******************************************************************************************************************/

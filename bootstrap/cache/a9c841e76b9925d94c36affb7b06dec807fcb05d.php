@@ -47,10 +47,13 @@
 </div>
 <!--   Core JS Files   -->
 <script src="/js/js.js"></script>
+<script src="/js/jquery.ui.widget.js" type="text/javascript"></script>
 <script src="/js/sweetalert.js"></script>
 <script src="/js/datatables.min.js"></script>
 <script src="/js/datatables.min.js"></script>
 <script src="/js/bootstrap-switch.min.js"></script>
+<script src="/js/jquery.iframe-transport.js" type="text/javascript"></script>
+<script src="/js/jquery.fileupload.js" type="text/javascript"></script>
 <script src="/js/admin.js"></script>
 
 </body>
